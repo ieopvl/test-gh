@@ -3,7 +3,7 @@ import {SearchIcon} from "@primer/octicons-react";
 
 export class SearchPanel extends React.Component {
     state = {
-        searchText: "Start typing"
+        searchText: "Search video..."
     }
 
     onChangeHandler = (event) => {
